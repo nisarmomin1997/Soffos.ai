@@ -1,3 +1,5 @@
+#Terraform code to deploy a GKE Autopilot cluster
+
 provider "google" {
   credentials = file("<YOUR_SERVICE_ACCOUNT_KEY_FILE>")
   project     = "<YOUR_PROJECT_ID>"
